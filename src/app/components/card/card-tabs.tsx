@@ -1,4 +1,3 @@
-import React from "react";
 import screenshot1 from '@/assets/page1.png';
 import screenshot2 from '@/assets/page2.png';
 import screenshot3 from '@/assets/page3.png';
