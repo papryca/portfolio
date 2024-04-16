@@ -8,7 +8,7 @@ const AboutMe =() => {
         <div>
           <h2 className='text-3xl underline decoration-pink pb-5'>My Portfolio</h2>
         </div>
-        <div className=' flex items-center gap-10 flex-col lg:mr-32 py-10'>
+        <div className=' flex items-center gap-10 flex-col py-10'>
           {cards.map(card =>( <Card card={card} key={card.index}/>))}
       </div>
       </div>
