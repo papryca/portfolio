@@ -12,7 +12,7 @@ const Page = () => {
           <div className='hidden md:block'>
             <Image className='w-full min-h-full' src={backgroundImage} alt="Background colorful slash"/>
           </div>
-          <div className='md:w-[65%]'>
+          <div className='w-[100%] md:w-[65%]'>
             <div className='flex w-full justify-center items-center content-end md:gap-10 lg:gap-36 sm:justify-around'>
               <div>
                 <h1 className='font-semibold xl:text-5xl text-pink sm:text-4xl text-xl'>Inesa Smarhunova</h1>
