@@ -17,7 +17,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/inesa-smarhunova-466b5a28a/" target="_blank"
                 className="hover:underline me-4">
-                <Image className="w-32 rounded-t-lg h-6"
+                <Image className="sm:w-32 w-24 rounded-t-lg h-6"
                        src={linkedIn}
                        alt="Background colorful slash"/></a>
             </li>
@@ -25,7 +25,7 @@ const Footer = () => {
               <a
                 href="https://github.com/papryca" target="_blank"
                 className="hover:underline me-4">
-                <Image className="w-12 rounded-t-lg"
+                <Image className="sm:w-12 w-8 rounded-t-lg"
                        src={github}
                        alt="Background colorful slash"/></a>
             </li>
