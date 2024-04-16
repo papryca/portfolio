@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section>
       <footer className="bg-white shadow dark:bg-page-background-dark w-full mt-10 h-24">
-        <div className="w-full h-full mx-auto max-w-screen-xl px-4 flex sm:flex-row md:justify-between justify-around flex-col items-center">
+        <div className="w-full h-full mx-auto max-w-screen-xl px-4 flex xm:flex-row md:justify-between justify-around flex-col items-center">
       <span className="text-sm text-gray-dark dark:text-gray-soft">
         <a href="mailto:email@shelter.com">
                         <h4 className="md:text-xl text-xs">inessasmorgunova@gmail.com</h4>
