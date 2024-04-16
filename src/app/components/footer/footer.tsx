@@ -12,7 +12,7 @@ const Footer = () => {
                     </a>
     </span>
           <ul
-            className="flex flex-wrap gap-10 items-center self-end text-sm font-medium text-gray-soft dark:text-gray-soft justify-center w-screen">
+            className="flex flex-wrap gap-10 items-center self-end text-sm font-medium text-gray-soft dark:text-gray-soft justify-center w-full">
           <li>
               <a
                 href="https://www.linkedin.com/in/inesa-smarhunova-466b5a28a/" target="_blank"
