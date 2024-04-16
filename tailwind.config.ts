@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xm: '320px',
+        sm: '570px',
+        md: '1130px',
+        lg: '1300px',
+        xl: '1440px',
+      },
       backgroundColor: {
         'page-background-light': '#F6F6FE',
         'page-background-dark': '#000000',
@@ -20,17 +27,6 @@ const config: Config = {
           dark: '#4A4A4A',
           soft: '#999999',
         },
-        'green': {
-          'soft': '#b9d7a8',
-          'bright':'#407922'
-        },
-        'text': {
-          'light': '#ffffff',
-          'dark':'#407922'
-        },
-        'red': '#e86a74',
-        'red-soft':'#e3918d',
-        'red-bright':'#e0202c'
       },
     },
   },

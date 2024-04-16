@@ -6,14 +6,14 @@ interface CardProps {
 }
 const Card =({card}:CardProps)=> {
   return (
-    <section className='md:max-w-[70%]'>
-      <div className="flex bg-white border border-gray-dark rounded-lg shadow md:flex-row hover:bg-page-background-light dark:border-back dark:bg-page-background-dark dark:hover:bg-page-background-grey">
-        <a href={card.link} target="_blank" className='flex'>
-          <Image className="w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-s-lg" src={card.image}
-                 alt="Background colorful slash"/>
+    <section className='lg:max-w-[70%]'>
+      <div className="min-h-64 flex bg-white border border-gray-dark rounded-lg shadow sm:flex-row xm:flex-col hover:bg-page-background-light dark:border-back dark:bg-page-background-dark dark:hover:bg-page-background-grey">
+        <a href={card.link} target="_blank" className='flex xm:flex-col sm:flex-row'>
+          <Image className="sm:w-[45%] rounded-t-lg h-auto xm:w-auto" src={card.image}
+                 alt="Project's screen"/>
           <div className="flex flex-col justify-start p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{card.name}</h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{card.date}</p>
+            <h5 className="mb-2 sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-sm">{card.name}</h5>
+            <p className="mb-3 font-normal sm:text-sm md:text-base text-gray-700 dark:text-gray-400 text-xs">{card.date}</p>
           </div>
         </a>
         <a href={card.GitHubLink} target="_blank"
