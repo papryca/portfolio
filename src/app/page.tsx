@@ -17,8 +17,7 @@ const Page = () => {
               <div>
                 <h1 className='font-semibold xl:text-5xl text-pink sm:text-4xl text-xl'>Inesa Smarhunova</h1>
                 <p className='sm:text-xl xl:text-2xl pt-5 text-white text-sm '>I&apos;m a Front End Developer</p>
-                <p className='text-gray-soft pt-5 sm:text-base xm:text-xs'>My goal is to craft intuitive interfaces that not only<br/> meet
-                  users&apos; needs but also exceed their expectations.</p>
+                <p className='text-gray-soft pt-5 sm:text-base xm:text-xs'>I design interactive user interfaces that combine aesthetics,<br/> functionality and usability to provide a great user experience.</p>
               </div>
               <Image src={portraitImage} alt="Portrait"
                       className='sm:h-96 sm:w-72 xm:h-60 xm:w-40'/>

@@ -22,7 +22,7 @@ const config: Config = {
       },
       colors: {
         'pink': '#fa2771',
-        'yellow': '#fcae6f',
+        'yellow': '#FAC24B',
         'gray': {
           dark: '#4A4A4A',
           soft: '#999999',
