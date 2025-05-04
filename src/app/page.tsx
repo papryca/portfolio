@@ -25,7 +25,7 @@ const Page = () => {
           </div>
 
 
-          <div className="relative flex flex-col justify-start items-start  mt-10 sm:w-3/4 xm:w-full md:gap-44 xm:gap-20">
+          <div className="relative flex flex-col justify-start items-start  mt-10 sm:w-3/4 xm:w-full md:gap-44 xm:gap-32">
             <h1>
               {["Inesa", "Smarhunova"].map((word, index) => (
                 <span
