@@ -3,23 +3,24 @@ import github from '@/assets/github-mark.png';
 import Image from "next/image";
 const Footer = () => {
   return (
-    <section>
-      <footer className="bg-white shadow dark:bg-page-background-dark w-full mt-10 h-24">
-        <div className="w-full h-full mx-auto max-w-screen-xl px-4 flex sm:flex-row md:justify-between justify-around flex-col items-center">
-      <span className="text-sm text-gray-dark dark:text-gray-soft">
+    <section className='w-full max-w-[1200px] m-auto'>
+      <span className='h-[0.1px] bg-page-background-dark block mt-28 mx-auto'></span>
+      <footer className=" max-w-screen-lg h-24">
+        <div className="w-full h-full mx-auto max-w-screen-xl px-4 flex justify-around flex-col items-center sm:flex-row md:justify-between">
+      <span className="text-sm text-text">
         <a href="mailto:email@shelter.com">
-                        <h4 className="md:text-xl text-xs">inessasmorgunova@gmail.com</h4>
+                        <h4 className="font-light text-text sm:text-xl lg:text-lg">inessasmorgunova@gmail.com</h4>
                     </a>
     </span>
           <ul
-            className="flex flex-wrap gap-10 items-center self-end text-sm font-medium text-gray-soft dark:text-gray-soft sm:justify-end justify-center w-full">
+            className="flex flex-wrap gap-10 items-center self-end text-sm font-medium text-text justify-center w-full sm:justify-end">
           <li>
               <a
                 href="https://www.linkedin.com/in/inesa-smarhunova-466b5a28a/" target="_blank"
                 className="hover:underline me-4">
-                <Image className="sm:w-32 w-24 rounded-t-lg h-6"
+                <Image className="sm:w-32 w-24 h-6"
                        src={linkedIn}
-                       alt="Background colorful slash"/></a>
+                       alt="LinkedIn image"/></a>
             </li>
             <li>
               <a
@@ -27,7 +28,7 @@ const Footer = () => {
                 className="hover:underline me-4">
                 <Image className="sm:w-12 w-8 rounded-t-lg"
                        src={github}
-                       alt="Background colorful slash"/></a>
+                       alt="Github image"/></a>
             </li>
           </ul>
         </div>
